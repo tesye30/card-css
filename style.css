@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+    position:absolute;
+   
+}
+
+.content{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 550px;
+    height: 100vh;
+}
+
+.card{
+    background: #FFF;
+    box-shadow: 0px 2px 18px #26395338;
+    border-radius: 20px;
+}
+
+.mediaCard{
+    background: url("https://img4.goodfon.com/wallpaper/nbig/c/56/anime-art-kakegurui-bezumnyi-azart-meari-saotome-devushka-ka.jpg") center/cover;
+    height: 200px;
+
+}
+
+.topCard{
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.actions{
+    background: none;
+    border: none;
+    color: purple;
+
+}
+
+
+
+p{
+    display: block;
+    
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 5px;
+    margin-inline-end: 0px;
+
+    
+    
+}
